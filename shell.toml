@@ -1,0 +1,126 @@
+# ============================================================
+# LIFELESS — Omarchy Shell surface theming
+# Author: @the2middlechild
+#
+# Deep slate surfaces with pale sage text and teal accents.
+# Glass effect is soft — matches the still, muted aesthetic.
+# ============================================================
+
+[bar]
+background       = "#243031"   # deep slate
+background-alpha = 0.86
+text             = "#dcd6ce"   # pale sage-white
+active           = "#5AC2AA"   # teal for alert states
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
+
+[hyprland]
+active-border            = "#7EC2B2 #294842 45deg"   # light → mid grey
+active-border-foreground = "#7EC2B2 #294842 45deg"
+
+[controls]
+normal-color        = "#dcd6ce"
+normal-fill-alpha   = 0.04
+normal-border       = "#dcd6ce"
+normal-border-width = 1
+normal-border-alpha = 0.4
+
+hover-cursor-color        = "#dcd6ce"
+hover-cursor-fill-alpha   = 0.08
+hover-cursor-border       = "#dcd6ce"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.25
+
+focus-color        = "#dcd6ce"
+focus-fill-alpha   = 0.08
+focus-border       = "#dcd6ce"
+focus-border-width = 1
+focus-border-alpha = 0.25
+
+selected-color        = "#dcd6ce"
+selected-fill-alpha   = 0.18
+selected-border       = "#dcd6ce"
+selected-border-width = 0
+selected-border-alpha = 1.0
+
+pressed-fill-alpha   = 0.22
+selection-fill-alpha = 0.35
+
+[spacing]
+scale           = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background       = "#1a1f2b"
+background-alpha = 0.92
+text             = "#dcd6ce"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+
+[tooltip]
+background       = "#1a1f2b"
+background-alpha = 0.97
+text             = "#dcd6ce"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 1.0
+
+[notifications]
+background       = "#1a1f2b"
+background-alpha = 0.94
+text             = "#dcd6ce"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+countdown        = "#4DAFA1"   # teal progress ring
+
+[launcher]
+background                = "#243031"
+background-alpha          = 0.92
+text                      = "#dcd6ce"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 1.0
+scrim                     = "#243031"
+scrim-alpha               = 0.56
+selected-background       = "#dcd6ce"
+selected-background-alpha = 0.12
+selected-text             = "#dcd6ce"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.25
+
+[menu]
+background                = "#243031"
+background-alpha          = 0.94
+text                      = "#B5DDDD"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 1.0
+scrim                     = "#243031"
+scrim-alpha               = 0.54
+selected-background       = "#dcd6ce"
+selected-background-alpha = 0.12
+selected-text             = "#FBFEFF"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.25
+
+[polkit]
+background       = "#243031"
+background-alpha = 0.96
+text             = "#dcd6ce"
+text-error       = "#c26a5a"
+border           = "hyprland.active-border"
+border-error     = "#82E7E9"
+border-alpha     = 1.0
+scrim            = "#243031"
+scrim-alpha      = 0.62
+accent           = "#BEF0ED"   # pale mint lock icon + selection tint
+
+[image-picker]
+scrim                   = "#243031"
+scrim-alpha             = 0.64
+text                    = "#dcd6ce"
+selected-border         = "#43F9E1"         # mint frame on selected
+selected-border-alpha   = 1.0
+unselected-border       = "#dcd6ce"
+unselected-border-alpha = 0.28

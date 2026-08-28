@@ -1,0 +1,110 @@
+# ============================================================
+# lifeless — Alacritty terminal palette
+# Author: @the2middlechild
+# Synchronized with colors.toml.
+# Pale sage text on deep slate — with teal/mint/green ANSI
+# hues that echo the backgrounds. Soft and easy to read for
+# long sessions.
+#:tombi schema.strict = false
+# ============================================================
+
+[window]
+# 0.90 = light frosted glass. Raise to 1.0 for solid.
+opacity = 0.60
+
+# ── Primary ──────────────────────────────────────────────────
+[colors.primary]
+background        = "#243031"   # deep slate
+foreground        = "#f5f1e8"   # warm near-white (bright_foreground)
+bright_foreground = "#ffffff"
+
+# ── Cursor ───────────────────────────────────────────────────
+# Near-white cursor: always visible on the dark navy base
+[colors.cursor]
+text   = "#1a1f2b"
+cursor = "#fafafa"
+
+# Teal in vi mode — distinct and calming
+[colors.vi_mode_cursor]
+text   = "#1a1f2b"
+cursor = "#6a9aa5"
+
+# ── Search ───────────────────────────────────────────────────
+[colors.search.matches]
+foreground = "#1a1f2b"
+background = "#d9b676"   # wheat yellow highlight
+
+[colors.search.focused_match]
+foreground = "#1a1f2b"
+background = "#e0916a"   # muted coral accent for active match
+
+# ── Footer bar ───────────────────────────────────────────────
+[colors.footer_bar]
+foreground = "#1a1f2b"
+background = "#dcd6ce"
+
+# ── Selection ────────────────────────────────────────────────
+[colors.selection]
+text       = "#f5f1e8"
+background = "#2C473F"   # cool navy selection
+
+# ── Normal ANSI (0-7) ────────────────────────────────────────
+[colors.normal]
+black   = "#1c2830"
+red     = "#c87a6a"   # warm muted terracotta — readable error color
+green   = "#4a9a8a"   # muted teal — directories
+yellow  = "#7ac4b0"   # mid teal — symlinks
+blue    = "#5ab0a0"   # deeper teal — executables
+magenta = "#6aacbc"   # cool teal — archives
+cyan    = "#55c4b8"   # teal — devices
+white   = "#c4d0da"   # cool grey-white — regular files
+
+# ── Bright ANSI (8-15) ───────────────────────────────────────
+# Brighter variants for bold/highlighted text — still readable
+[colors.bright]
+black   = "#6e8090"
+red     = "#d9836f"
+green   = "#6abaa8"
+yellow  = "#96c8b8"
+blue    = "#7ac0b0"
+magenta = "#8ac4d0"
+cyan    = "#77e0c8"
+white   = "#f5f1e8"
+
+# previous config
+# ── Normal ANSI (0-7) ────────────────────────────────────────
+# [colors.normal]
+# black   = "#1a1f2b"
+# red     = "#55d8c5"
+# green   = "#4cd5b5"
+# yellow  = "#71e3c8"
+# blue    = "#9ff0d5"
+# magenta = "#abf6fd"
+# cyan    = "#77e0f8"
+# white   = "#ffffff"
+
+# ── Bright ANSI (8-15) ───────────────────────────────────────
+# [colors.bright]
+# black   = "#c8e1e4"
+# red     = "#d9836f"
+# green   = "#96b8a4"
+# yellow  = "#ecc98c"
+# blue    = "#8ba5c4"
+# magenta = "#c29ebd"
+# cyan    = "#85b7c0"
+# white   = "#f5f1e8"
+
+# ── Extended ─────────────────────────────────────────────────
+[[colors.indexed_colors]]
+index = 16
+color = "#e0916a"   # muted coral accent at index 16
+
+[[colors.indexed_colors]]
+index = 17
+color = "#8a6a52"   # umber brown at index 17
+
+# ── Bell ─────────────────────────────────────────────────────
+# [bell]
+# animation = "EaseOutExpo"
+# duration  = 100
+# color     = "#e0916a"   # coral flash

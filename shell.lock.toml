@@ -1,0 +1,13 @@
+# ============================================================
+# LIFELESS — shell.lock.toml
+# Author: @the2middlechild
+# Lock screen and shell widget color tokens.
+# Keep in sync with colors.toml.
+# ============================================================
+
+text          = "#dcd6ce"   # pale sage-white foreground
+placeholder   = "#948e91"   # muted grey
+text-error    = "#d9836f"   # bright terracotta for errors
+border        = "#2c3547"   # cool dark idle border
+border-active = "#e4e3e3 #4c4c4c 90deg"   # light when active
+border-error  = "#c26a5a"   # terracotta on failure

@@ -1,0 +1,76 @@
+# ============================================================
+# LIFELESS — Omarchy Theme
+# Aesthetic: deep teal-green base, mint and seafoam accents,
+#            cool blue highlights on a dark slate canvas.
+#            Still, quiet, and muted — like deep water.
+# Author: @the2middlechild
+# ============================================================
+
+mode = "dark"
+
+# ============================================================
+# since the quattro update, themes will not install with hyprland.lua or any terminal configs. such as alacritty.toml
+# or any other .toml other than colors.toml hence hyprland.toml and this separate command is given
+# for more information check out oldjobobos post in github,
+# https://github.com/basecamp/omarchy/pull/8720 
+terminal_opacity = 0.82
+terminal_blur = true
+terminal_blur_radius = 28
+# ============================================================
+
+
+# ── Core accent ──────────────────────────────────────────────
+# Icy cyan — the main interactive color.
+accent = "#abfeff"
+
+# ── Hyprland border gradient ──────────────────────────────────
+# Muted teal → deep slate: subtle, frosted borders.
+# Keeps the aesthetic clean and undistracting.
+hyprland_active_border   = "#7EC2B2 #294842 45deg"
+hyprland_inactive_border = "#2c3547"
+active_border_color      = "#7ec2b2"
+
+# ── Primary surfaces ─────────────────────────────────────────
+background = "#243031"   # deep slate — dark but not harsh
+foreground = "#dcd6ce"   # pale sage-white, gentle on eyes
+
+# ── Surface scale ────────────────────────────────────────────
+dark_background    = "#12151e"   # deeper slate for panels
+darker_background  = "#0b0d13"   # deepest layer
+lighter_background = "#242b3a"   # raised surfaces, cards
+
+# ── Foreground scale ─────────────────────────────────────────
+dark_foreground   = "#948e91"    # muted grey
+light_foreground  = "#e8e3da"    # near-white
+bright_foreground = "#f5f1e8"    # brightest, used sparingly
+
+# ── Selection / muted ────────────────────────────────────────
+selection = "#2c3547"            # cool dark selection
+muted     = "#262d3a"            # placeholder, disabled
+
+# ── Hue palette ──────────────────────────────────────────────
+# Cool and desaturated — teal, mint, seafoam. Nothing vivid.
+# The palette reads like deep water: greens, teals, soft blues.
+red     = "#55D8C5"   # mint
+yellow  = "#23AC97"   # deep teal
+green   = "#4CD5B5"   # seafoam
+cyan    = "#77e0f8"   # sky blue
+blue    = "#9FF0D5"   # pale mint
+magenta = "#abf6fd"   # ice blue
+brown   = "#8a6a52"   # warm umber
+orange  = "#e0916a"   # muted coral
+
+bright_red     = "#d9836f"
+bright_yellow  = "#ecc98c"
+bright_green   = "#96b8a4"
+bright_cyan    = "#85b7c0"
+bright_blue    = "#8ba5c4"
+bright_magenta = "#c29ebd"
+
+# ── Shell widget tokens ──────────────────────────────────────
+text          = "#dcd6ce"
+placeholder   = "#948e91"
+text-error    = "#d9836f"
+border        = "#2c3547"
+border-active = "#e0916a"
+border-error  = "#c26a5a"

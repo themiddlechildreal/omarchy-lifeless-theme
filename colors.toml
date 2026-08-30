@@ -31,34 +31,52 @@ hyprland_inactive_border = "#2c3547"
 active_border_color      = "#7ec2b2"
 
 # ── Primary surfaces ─────────────────────────────────────────
-background = "#243031"   # deep slate — dark but not harsh
-foreground = "#dcd6ce"   # pale sage-white, gentle on eyes
+# deep slate — dark but not harsh
+background = "#243031"
+# pale sage-white, gentle on eyes
+foreground = "#dcd6ce"
 
 # ── Surface scale ────────────────────────────────────────────
-dark_background    = "#12151e"   # deeper slate for panels
-darker_background  = "#0b0d13"   # deepest layer
-lighter_background = "#242b3a"   # raised surfaces, cards
+# deeper slate for panels
+dark_background    = "#12151e"
+# deepest layer
+darker_background  = "#0b0d13"
+# raised surfaces, cards
+lighter_background = "#242b3a"
 
 # ── Foreground scale ─────────────────────────────────────────
-dark_foreground   = "#948e91"    # muted grey
-light_foreground  = "#e8e3da"    # near-white
-bright_foreground = "#f5f1e8"    # brightest, used sparingly
+# muted grey
+dark_foreground   = "#948e91"
+# near-white
+light_foreground  = "#e8e3da"
+# brightest, used sparingly
+bright_foreground = "#f5f1e8"
 
 # ── Selection / muted ────────────────────────────────────────
-selection = "#2c3547"            # cool dark selection
-muted     = "#262d3a"            # placeholder, disabled
+# cool dark selection
+selection = "#2c3547"
+# placeholder, disabled
+muted     = "#262d3a"
 
 # ── Hue palette ──────────────────────────────────────────────
 # Cool and desaturated — teal, mint, seafoam. Nothing vivid.
 # The palette reads like deep water: greens, teals, soft blues.
-red     = "#55D8C5"   # mint
-yellow  = "#23AC97"   # deep teal
-green   = "#4CD5B5"   # seafoam
-cyan    = "#77e0f8"   # sky blue
-blue    = "#9FF0D5"   # pale mint
-magenta = "#abf6fd"   # ice blue
-brown   = "#8a6a52"   # warm umber
-orange  = "#e0916a"   # muted coral
+# mint
+red     = "#55D8C5"
+# deep teal
+yellow  = "#23AC97"
+# seafoam
+green   = "#4CD5B5"
+# sky blue
+cyan    = "#77e0f8"
+# pale mint
+blue    = "#9FF0D5"
+# ice blue
+magenta = "#abf6fd"
+# warm umber
+brown   = "#8a6a52"
+# muted coral
+orange  = "#e0916a"
 
 bright_red     = "#d9836f"
 bright_yellow  = "#ecc98c"
